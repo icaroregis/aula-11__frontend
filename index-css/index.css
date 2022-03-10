@@ -133,6 +133,10 @@ button {
   font-family: 'Poppins', sans-serif; 
 }
 
+body {
+  background-color: #E5E5E5;  
+}
+
 link,
 a {
   border: none;

@@ -46,6 +46,7 @@
   width: 490px;
   height: 350px; 
   background: url("../assets/imgs/delivery.svg"); 
+  margin-right: 10px; 
 }
 
 .blockTwo { 
@@ -55,6 +56,8 @@
   flex-direction: column;
   justify-content: center; 
   align-items: center; 
+  background-color: #FFFFFF;
+  border-radius: 5px;  
 }
 
 .titleBlockTwo {
@@ -100,7 +103,54 @@
 }
 
 .itemFooterr {
-  color: #F3F3F3;  
+  color: #F3F3F3;   
+}
+
+@media(max-width: 504px) {
+  .blockOne {
+    width: 95%; 
+  }
+
+  .blockTwo {
+    width: 90%; 
+    padding: 0 10px;
+  }
+
+  .containerDescriptionPizzas {
+    width: 90%; 
+  }
+}
+
+@media(max-width: 1060px) { 
+ .containerMainMaster {
+   flex-direction: column; 
+ }
+
+ .blockOne {
+   margin-right: 0px; 
+   margin-bottom: 30px; 
+ }
+
+ .containerMasterF {
+   padding: 0 15px;
+ }
+
+ .listLink {
+   flex-direction: column; 
+ } 
+
+ .containerHeader {
+   height: 150px; 
+ }
+
+ .containerMaster {
+   height: 150px; 
+   padding: 0 5px; 
+ }
+
+ .spacing {
+   margin-bottom: 1rem;  
+ }
 }
 
 
