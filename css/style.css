@@ -1,0 +1,85 @@
+.containerHeader {
+  background-color: #222222; 
+  height: 100px; 
+}
+
+.containerMaster {   
+  max-width: 1024px; 
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  height: 100px; 
+}
+
+.containerMasterMainMaster {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.containerMainMaster { 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  max-width: 1024px; 
+  margin: 80px auto  
+}
+
+.listLink {
+  display: flex; 
+}
+
+.itemLink {
+  margin-right: 13px; 
+  text-decoration: none;  
+  color: #F3F3F3;
+}
+
+.lastItemLink {
+  margin-right: 13px; 
+  text-decoration: none;   
+  color: #F3F3F3; 
+}
+
+.blockOne {
+  width: 490px;
+  height: 350px; 
+  background: url("../assets/imgs/delivery.svg"); 
+}
+
+.blockTwo { 
+  width: 490px;
+  height: 350px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.titleBlockTwo {
+  margin: 26px auto; 
+  text-align: center;  
+}
+
+.containerDescriptionPizzas {
+  width: 385px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.titleList {
+  text-align: center;
+  margin-bottom: 20px; 
+}
+
+.itemListPizzas {
+  margin-bottom: 1rem; 
+}
+
+
+
+
+
